@@ -7,6 +7,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.MaterialTheme
@@ -41,7 +42,14 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-    Text(text = "Hello world ")
+    Column {
+        Text(text = "資管2B 張予綸 ")
+        Image(
+
+            painter = painterResource(id = R.drawable.map),
+            contentDescription = "地圖",
+        )
+    }
 }
 
 @Preview(showBackground = true)

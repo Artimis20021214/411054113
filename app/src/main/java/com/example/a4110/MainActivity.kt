@@ -64,7 +64,12 @@ fun Greeting(name: String) {
     ){
 
         Canvas(modifier = Modifier){
-            drawRect(color = androidx.compose.ui.graphics.Color.Blue, Offset(700f,100f),Size(40f,40f)
+            drawRect(color = androidx.compose.ui.graphics.Color.Blue, Offset(780f,200f),Size(40f,40f)
+            )
+
+        }
+        Canvas(modifier = Modifier){
+            drawRect(color = androidx.compose.ui.graphics.Color.Blue, Offset(1600f,920f),Size(40f,40f)
             )
 
         }
